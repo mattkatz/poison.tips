@@ -1,12 +1,18 @@
 # Site settings
 title: Poison Tips
-email: your-email@domain.com
+email: recipes@poison.tips
 description: > # this means to ignore newlines until "baseurl:"
-  Oblique strategies for ruining things
+  Oblique strategies for ruining things.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://poison.tips" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: mattkatz
+github_username:  mattkatz
 
 # Build settings
 markdown: kramdown
+
+# collection
+
+collections:
+  recipes:
+    output: true

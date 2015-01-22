@@ -3,9 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+Poison Tips is a genteel collection of oblique strategies for ruining things.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Perhaps for ruining nice things, perhaps for ruining nasty things. This is just a collection of strategies and examples of their implementations.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Ironically, this is an open source effort that is completely vulnerable to all of these strategies. It is also available for you to reuse as all content here is placed into the public domain where it can ruin that as well. Any contributions of content must be made under the understanding that they too are immediately part of the public domain.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
