@@ -19,11 +19,6 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
-        {% for recipe in site.recipes %}
-          {% if recipe.title %}
-          <a class="page-link" href="{{ recipe.url  | prepend: site.baseurl }}">{{ recipe.title }}</a>
-          {% endif %}
-        {% endfor %}
       </div>
     </nav>
 
