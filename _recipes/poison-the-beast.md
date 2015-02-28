@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Poison the Beast
-tags: strategies, poison
+tags: 
+  - strategies 
+  - poison
 ---
 
 # Situation
