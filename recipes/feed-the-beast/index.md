@@ -2,6 +2,7 @@
 layout: page
 title: Feed the Beast
 tags: feed
+permalink: /Feed-the-Beast/
 ---
 
 # Situation

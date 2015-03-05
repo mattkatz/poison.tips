@@ -4,6 +4,7 @@ title: Poison the Beast
 tags: 
   - strategies 
   - poison
+permalink: /Poison-the-Beast/
 ---
 
 # Situation
