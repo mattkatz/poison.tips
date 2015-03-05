@@ -11,11 +11,10 @@
       <div class="wrapper">
         {{ content }}
       </div>
-      <h1>Related</h1>
-      <div class="related" >
+      <div class="wrapper related" >
+        <h1>Related</h1>
         {% for tag in page.tags %}
-        <h2>Items tagged with {{ tag }}</h2>
-        {{ site.tags }}
+        <h2>Items tagged with {{ tag | capitalize }}</h2>
         <ul>
           {% for page in site.tags.feed %}
           <li>
