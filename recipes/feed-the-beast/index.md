@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Feed the Beast
-tags: feed
+tags: 
+ - feed
 permalink: /Feed-the-Beast/
 ---
 

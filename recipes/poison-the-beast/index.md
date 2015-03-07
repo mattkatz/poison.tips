@@ -2,7 +2,6 @@
 layout: page
 title: Poison the Beast
 tags: 
-  - strategies 
   - poison
 permalink: /Poison-the-Beast/
 ---
