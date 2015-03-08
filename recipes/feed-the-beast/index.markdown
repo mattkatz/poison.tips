@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Feed the Beast
+author: Matt Katz
 tags: 
  - feed
 permalink: /Feed-the-Beast/
@@ -18,4 +19,4 @@ If an organization is looking for obscenity, you might help them by submitting q
 
 # Related
 
-[Poision the Beast](poison-the-beast.html)
+[Poison the Beast](/Poison-the-Beast/)

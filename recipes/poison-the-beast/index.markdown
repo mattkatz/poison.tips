@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Poison the Beast
+author: Matt Katz
 tags: 
   - poison
 permalink: /Poison-the-Beast/
