@@ -15,9 +15,9 @@ contributors:
 
 # Build settings
 markdown: kramdown
+exclude: ['Rakefile', 'README.markdown']
 
 # collection
-
 collections:
   recipes:
     output: true
