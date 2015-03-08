@@ -7,6 +7,11 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://poison.tips" # the base hostname & protocol for your site
 twitter_username: mattkatz
 github_username:  mattkatz
+contributors:
+  Matt Katz:
+    url: http://www.morelightmorelight.com
+    github: mattkatz
+    twitter: mattkatz
 
 # Build settings
 markdown: kramdown
