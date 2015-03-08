@@ -16,7 +16,9 @@ You'll follow those steps to first [fork this repository](https://help.github.co
 You'll also want to modify the `_config.yml` file and add your name to the section called contributors. 
 
 When you submit a contribution to this source code/website, you do so in agreement with the following:
-You license your contribution for use under the MIT License, so that it can go up on the poison.tips site and so that other folks can use some or all of your text.
+You license and code contribution for use under the MIT License, so that it can go up on the poison.tips site and so that other folks can use some or all of your text.
+
+You license your text for use under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ## License for use ##
 The MIT License (MIT)
