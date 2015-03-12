@@ -90,14 +90,16 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $brand-color;
-    text-decoration: none;
+    text-shadow: lighten($brand-color, 15%)  0 0 5px;
 
     &:visited {
         color: darken($brand-color, 15%);
+        text-shadow: darken($brand-color, 15%) 0 0 5px;
     }
 
     &:hover {
         color: $text-color;
+        text-shadow: darken($brand-color, 15%) 0 0 5px;
         text-decoration: underline;
     }
 }
