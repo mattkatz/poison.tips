@@ -8,7 +8,7 @@ task :build do
 end
 desc "Serve on Localhost with port 4000"
 task :default do
-  jekyll "serve --watch"
+  jekyll "serve --watch --drafts"
 end
 desc "Serve on Localhost with port 4000 using development version"
 task :unstable do
