@@ -1,0 +1,35 @@
+{{ $currentPath := .URLPath.URL }}
+{{ $baseUrl := .Site.BaseURL }}
+
+<header id="main-header">
+  <h1 id="site-title">
+    <a href="{{ $baseUrl }}">{{ .Site.Title }}</a>
+  </h1>
+  {{ with  .Site.Params.Subtitle }}
+  <div class="sub-title">{{ . }}</div>
+  {{ end }}
+  <nav class="horizontal-nav">
+    <a class="menu-icon">=</a>
+
+    <ul class="horizontal-nav-list">
+      {{ range $key, $element := .Site.Sections }}
+        {{ if ne $key "" }}
+          <li class="{{ if eq $currentPath (print "/" $key "/") }}active{{ end }}">
+            <a href="{{ $baseUrl }}/{{$key}}">{{ upper $key }}</a>
+          </li>
+        {{ else }}
+          {{ range $page := $element.Pages }}
+          
+            <li class="{{ if eq $currentPath (print "/" $key "/") }}active{{ end }}">
+              <a href="{{ $page.Permalink }}">{{ upper $page.Title }}</a>
+            </li>
+          {{ end }}
+          
+        {{ end }}
+      {{ end }}
+      <li class="{{ if eq $currentPath "/" }}active{{ end }}">
+        <a href="{{ $baseUrl }}">ALL</a>
+      </li>
+    </ul>
+  </nav>
+</header>

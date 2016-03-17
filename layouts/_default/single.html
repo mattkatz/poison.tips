@@ -1,0 +1,27 @@
+{{ partial "head.html" . }}
+<body id="single">
+  {{ partial "header.html" . }}
+
+  <div class="post-symbol {{ .Params.color }}">
+    <i class="symbol fa fa-{{ .Params.icon }}"></i>
+    <p class="description">{{ .Description }}</p>
+  </div>
+
+  <section id="content-container">
+    <div class="post">
+      <h1>{{ .Title }}</h1>
+      <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+      <ul class="tags">
+        {{ range .Params.tags }}
+        <li class="tag"><a href="{{ $.Site.BaseURL }}/tags/{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+      <div id="TOC-Zone">
+        {{ .TableOfContents }}
+      </div>
+      <div class="post-content">{{ .Content }}</div>
+    </div>
+  </section>
+  {{ partial "footer.html" . }}
+</body>
+</html>

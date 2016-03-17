@@ -11,9 +11,7 @@ Please feel free to contribute by writing your own article or example of poison 
 ### How to Contribute ###
 The best way is to write a draft article. We'll be managing your contribution by [using a pull request](https://help.github.com/articles/using-pull-requests/). Read that for an overview of the steps to take.
 
-You'll follow those steps to first [fork this repository](https://help.github.com/articles/fork-a-repo/), then you can add an article in the `_drafts` folder. Make sure your article is saved as `my-clever-article-title.markdown` in that folder.
-
-You'll also want to modify the `_config.yml` file and add your name to the section called contributors. 
+You'll follow those steps to first [fork this repository](https://help.github.com/articles/fork-a-repo/), then you can add an article to `stories`, `recipes` or `terms` in the `content` folder. Make sure your article is saved as `my-clever-article-title.markdown` in that folder and that you've filled out the appropriate front matter. 
 
 When you submit a contribution to this source code/website, you do so in agreement with the following:
 You license and code contribution for use under the MIT License, so that it can go up on the poison.tips site and so that other folks can use some or all of your text.
