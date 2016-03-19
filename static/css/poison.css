@@ -206,7 +206,7 @@ section {
 
 a {
   text-decoration: none;
-  border-bottom: 1px dotted #404040;
+  color: rgb(66,66,166); //decided by listening to Jezabels - Pleasure Drive
 
 }
 
