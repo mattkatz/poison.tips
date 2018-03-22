@@ -1,4 +1,4 @@
-baseurl = "//poison.tips/"
+baseurl = "http://poison.tips/"
 languageCode = "en-us"
 title = "馘 Poison Tips"
 theme = "tinyce-hugo-theme"
